@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+h2 {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* brillo principal */
+    0 0 20px rgba(255, 255, 255, 0.329), /* brillo secundario */
+    0 0 30px rgba(255, 255, 255, 0.185); /* brillo adicional */
+    color: black; /* Cambia el color según tu preferencia */
+}
+
+
+button {
+    margin-top: 10px;
+}
+
+label{
+    color: aliceblue;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.text{
+    color: gray;
+}
+/* Animación en los botones */
+.btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efecto de hover en los botones */
+.btn:hover {
+    transform: translateY(-5px); /* Eleva el botón un poco al pasar el cursor */
+    box-shadow: 0 8px 15px rgba(248, 255, 180, 0.418); /* Sombra para resaltar el botón */
+}
+
+/* Animación de rebote */
+.btn:active {
+    transform: translateY(2px); /* Rebote al hacer clic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el texto de bienvenida */
+.display-4 , .lead{
+    text-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.24), /* brillo principal */
+    0 0 20px rgba(255, 255, 255, 0.6), /* brillo secundario */
+    0 0 30px rgba(255, 255, 255, 0.4); /* brillo adicional */
+    color: black; /* Cambia el color según tu preferencia */
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Animación en los enlaces del navbar */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto de hover en los enlaces del navbar */
+.navbar-nav .nav-link:hover {
+    color: #ffdd57; /* Cambia a un color de acento */
+    transform: scale(1.1); /* Agranda ligeramente el texto */
+    text-shadow: 0 0 8px rgba(255, 221, 87, 0.8); /* Agrega un brillo */
+}
+
+/* Opcional: Efecto de subrayado en hover */
+.navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffdd57; /* Color de acento para el subrayado */
+    transition: width 0.3s ease;
+    margin-top: 4px; /* Espacio entre el texto y el subrayado */
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%; /* Anima el subrayado */
+}
+
+.diff{
+    background-color: #8458ca;
+    border-color: transparent;
+}
+.diff:hover{
+    background-color: #7249a8;
+    border-color: transparent;
+}
+.diff2{
+    background-color: #5878ca;
+    border-color: transparent;
+}
+.diff2:hover{
+    background-color: #4964a8;
+    border-color: transparent;
+}
+/*estilos para el fondo*/
+.main-index {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+html, body {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    background-repeat: no-repeat;
+    overflow: auto ;
+}
+
+#stars {
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: 843px 1974px #FFF, 1353px 607px #FFF, 1978px 384px #FFF, 1116px 1596px #FFF, 213px 947px #FFF, 1518px 918px #FFF, 1398px 170px #FFF, 1197px 292px #FFF, 804px 935px #FFF, 1688px 1391px #FFF, 967px 1240px #FFF, 1164px 320px #FFF, 154px 795px #FFF, 1418px 1279px #FFF, 801px 239px #FFF, 227px 763px #FFF, 536px 1302px #FFF, 890px 832px #FFF, 935px 248px #FFF, 1493px 231px #FFF, 246px 290px #FFF, 107px 302px #FFF, 225px 505px #FFF, 2089px 149px #FFF, 219px 1571px #FFF, 618px 648px #FFF, 1844px 1971px #FFF, 623px 785px #FFF, 1003px 322px #FFF, 849px 127px #FFF, 1555px 308px #FFF, 1169px 314px #FFF, 447px 261px #FFF, 689px 875px #FFF, 257px 105px #FFF, 539px 1974px #FFF, 2147px 298px #FFF, 1404px 903px #FFF, 1054px 455px #FFF, 68px 213px #FFF, 1055px 1667px #FFF, 1565px 1552px #FFF, 1088px 358px #FFF, 376px 230px #FFF, 724px 1296px #FFF, 787px 2010px #FFF, 79px 259px #FFF, 1210px 2137px #FFF, 57px 310px #FFF, 1428px 1761px #FFF, 321px 1860px #FFF, 1377px 1469px #FFF, 1611px 363px #FFF, 764px 1185px #FFF, 327px 1574px #FFF, 1611px 510px #FFF;
+    animation: animStar 50s linear infinite;
+}
+
+#stars:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: 843px 1974px #FFF, 1353px 607px #FFF, 1978px 384px #FFF, 1116px 1596px #FFF, 213px 947px #FFF, 1518px 918px #FFF, 1398px 170px #FFF, 1197px 292px #FFF, 804px 935px #FFF, 1688px 1391px #FFF, 967px 1240px #FFF, 1164px 320px #FFF, 154px 795px #FFF, 1418px 1279px #FFF, 801px 239px #FFF, 227px 763px #FFF, 536px 1302px #FFF, 890px 832px #FFF, 935px 248px #FFF, 1493px 231px #FFF, 246px 290px #FFF, 107px 302px #FFF, 225px 505px #FFF, 2089px 149px #FFF, 219px 1571px #FFF, 618px 648px #FFF, 1844px 1971px #FFF, 623px 785px #FFF, 1003px 322px #FFF, 849px 127px #FFF, 1555px 308px #FFF, 1169px 314px #FFF, 447px 261px #FFF, 689px 875px #FFF, 257px 105px #FFF, 539px 1974px #FFF, 2147px 298px #FFF, 1404px 903px #FFF, 1054px 455px #FFF, 68px 213px #FFF, 1055px 1667px #FFF, 1565px 1552px #FFF, 1088px 358px #FFF, 376px 230px #FFF, 724px 1296px #FFF, 787px 2010px #FFF, 79px 259px #FFF, 1210px 2137px #FFF, 57px 310px #FFF, 1428px 1761px #FFF, 321px 1860px #FFF, 1377px 1469px #FFF, 1611px 363px #FFF, 764px 1185px #FFF, 327px 1574px #FFF, 1611px 510px #FFF;
+}
+
+#stars2 {
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: 951px 262px #FFF, 841px 1564px #FFF, 1502px 825px #FFF, 869px 114px #FFF, 1119px 739px #FFF, 724px 238px #FFF, 1184px 1235px #FFF, 690px 1374px #FFF, 430px 935px #FFF, 451px 1734px #FFF, 1679px 903px #FFF, 1226px 234px #FFF, 1118px 1586px #FFF, 516px 1331px #FFF, 1329px 1807px #FFF, 791px 931px #FFF, 1796px 400px #FFF, 320px 572px #FFF, 981px 563px #FFF, 831px 918px #FFF, 1490px 1805px #FFF, 1157px 870px #FFF, 2105px 614px #FFF, 1569px 1425px #FFF, 1176px 523px #FFF, 1567px 1235px #FFF, 646px 999px #FFF, 1377px 432px #FFF, 1420px 838px #FFF, 2119px 98px #FFF, 63px 1951px #FFF, 516px 317px #FFF, 930px 296px #FFF, 775px 877px #FFF, 1866px 392px #FFF, 340px 141px #FFF, 1941px 265px #FFF, 849px 1546px #FFF, 2150px 1649px #FFF, 476px 451px #FFF, 306px 642px #FFF, 458px 97px #FFF, 1274px 801px #FFF, 1990px 1069px #FFF, 1015px 682px #FFF, 494px 1383px #FFF;
+    animation: animStar 100s linear infinite;
+}
+
+#stars2:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: 951px 262px #FFF, 841px 1564px #FFF, 1502px 825px #FFF, 869px 114px #FFF, 1119px 739px #FFF, 724px 238px #FFF, 1184px 1235px #FFF, 690px 1374px #FFF, 430px 935px #FFF, 451px 1734px #FFF, 1679px 903px #FFF, 1226px 234px #FFF, 1118px 1586px #FFF, 516px 1331px #FFF, 1329px 1807px #FFF, 791px 931px #FFF, 1796px 400px #FFF, 320px 572px #FFF, 981px 563px #FFF, 831px 918px #FFF, 1490px 1805px #FFF, 1157px 870px #FFF, 2105px 614px #FFF, 1569px 1425px #FFF, 1176px 523px #FFF, 1567px 1235px #FFF, 646px 999px #FFF, 1377px 432px #FFF, 1420px 838px #FFF, 2119px 98px #FFF, 63px 1951px #FFF, 516px 317px #FFF, 930px 296px #FFF, 775px 877px #FFF, 1866px 392px #FFF, 340px 141px #FFF, 1941px 265px #FFF, 849px 1546px #FFF, 2150px 1649px #FFF, 476px 451px #FFF, 306px 642px #FFF, 458px 97px #FFF, 1274px 801px #FFF, 1990px 1069px #FFF, 1015px 682px #FFF, 494px 1383px #FFF;
+}
+
+#stars3 {
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: 1895px 1069px #FFF, 1843px 1818px #FFF, 459px 1012px #FFF, 1337px 405px #FFF, 1207px 1729px #FFF, 536px 1047px #FFF, 1520px 1564px #FFF, 797px 1248px #FFF, 1365px 932px #FFF, 2009px 1720px #FFF, 1003px 1127px #FFF, 1372px 1899px #FFF, 602px 703px #FFF, 1442px 431px #FFF, 1675px 1308px #FFF, 780px 284px #FFF, 1042px 1042px #FFF, 1306px 710px #FFF, 1994px 259px #FFF, 396px 811px #FFF, 1842px 932px #FFF, 1816px 1085px #FFF, 1598px 401px #FFF, 1783px 603px #FFF, 1263px 1093px #FFF, 379px 657px #FFF, 1565px 728px #FFF, 1689px 328px #FFF, 520px 1935px #FFF, 1852px 1211px #FFF, 721px 1645px #FFF, 413px 1745px #FFF, 1717px 795px #FFF, 437px 839px #FFF, 1635px 1047px #FFF, 351px 1635px #FFF, 1351px 1340px #FFF, 335px 283px #FFF, 870px 394px #FFF, 1981px 598px #FFF, 1606px 1615px #FFF, 477px 984px #FFF, 1675px 1113px #FFF;
+    animation: animStar 150s linear infinite;
+}
+
+#stars3:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: 1895px 1069px #FFF, 1843px 1818px #FFF, 459px 1012px #FFF, 1337px 405px #FFF, 1207px 1729px #FFF, 536px 1047px #FFF, 1520px 1564px #FFF, 797px 1248px #FFF, 1365px 932px #FFF, 2009px 1720px #FFF, 1003px 1127px #FFF, 1372px 1899px #FFF, 602px 703px #FFF, 1442px 431px #FFF, 1675px 1308px #FFF, 780px 284px #FFF, 1042px 1042px #FFF, 1306px 710px #FFF, 1994px 259px #FFF, 396px 811px #FFF, 1842px 932px #FFF, 1816px 1085px #FFF, 1598px 401px #FFF, 1783px 603px #FFF, 1263px 1093px #FFF, 379px 657px #FFF, 1565px 728px #FFF, 1689px 328px #FFF, 520px 1935px #FFF, 1852px 1211px #FFF, 721px 1645px #FFF, 413px 1745px #FFF, 1717px 795px #FFF, 437px 839px #FFF, 1635px 1047px #FFF, 351px 1635px #FFF, 1351px 1340px #FFF, 335px 283px #FFF, 870px 394px #FFF, 1981px 598px #FFF, 1606px 1615px #FFF, 477px 984px #FFF, 1675px 1113px #FFF;
+}
+
+@keyframes animStar {
+    from {
+    transform: translateY(0px);
+    }
+    to {
+    transform: translateY(-2000px);
+    }
+}
+
+.tex1{
+    background: transparent; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
+    color: aliceblue;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-select{
+    background-color:#1B2735;
+    color:aliceblue;
+}
+
+.title, h4{
+    color:aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.12), /* brillo principal */
+    0 0 20px rgba(255, 255, 255, 0.3), /* brillo secundario */
+    0 0 30px rgba(255, 255, 255, 0.2); /* brillo adicional */
+}
+
+
+/* Sobrescribir los estilos de las celdas */
+.table th, .table td {
+    background-color: transparent ; /* Fondo transparente en las celdas */
+    color: aliceblue ; /* Color de texto */
+
+}
+
+/* Opcional: efecto hover para filas */
+.table tr:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo suave al pasar el cursor */
+}

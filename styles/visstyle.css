@@ -1,0 +1,24 @@
+#colorBox {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: none;
+    border: 2px solid black;
+    overflow: hidden;
+}
+#colorOptions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.colorOption {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.gamearea{
+    overflow: hidden;
+}

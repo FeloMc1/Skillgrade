@@ -1,0 +1,30 @@
+
+#gameArea {
+position: relative;
+width: 80vw; /* 80% del ancho de la pantalla */
+height: 60vh; /* 60% de la altura de la pantalla */
+margin: 20px auto;
+border: 2px solid #333;
+overflow: hidden; /* Esconde las palabras que caen fuera del área */
+background-color: #a0a0a0;
+}
+
+/* Estilo para las palabras */
+.word {
+position: absolute;
+font-size: 20px; /* Tamaño fijo de la palabra */
+color: #000;
+font-weight: bold;
+white-space: nowrap; /* Evitar que las palabras se rompan */
+transition: top 1s linear;
+}
+/* Estilo para el input */
+#userInput {
+width: 60%; 
+margin: 20px auto;
+font-size: 20px;
+}
+
+.container {
+text-align: center;
+}

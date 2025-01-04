@@ -1,0 +1,36 @@
+/* Área de juego */
+#gameArea {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    position: relative;
+    background-color: #a0a0a0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Objetivo */
+#target {
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, rgba(0, 255, 0, 1) 20%, rgb(208, 255, 0) 60%, rgb(212, 3, 3) 80%, rgba(128, 0, 0, 0) 100%);
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; /* Oculto hasta que empiece el juego */
+    transition: width 0.3s ease, height 0.3s ease; /* Suaviza el cambio de tamaño en diferentes dificultades */
+}
+
+/* Botón de inicio */
+#startGame {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+/* Texto de puntaje e intentos */
+.container p {
+    font-size: 18px;
+    margin: 10px 0;
+}

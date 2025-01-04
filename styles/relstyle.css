@@ -1,0 +1,35 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+section.content {
+    margin-top: 20px;
+}
+
+.exercise-options {
+    margin-bottom: 20px;
+}
+
+.exercise-info {
+color: aliceblue;
+}
