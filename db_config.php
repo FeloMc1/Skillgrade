@@ -1,12 +1,12 @@
 <?php
-$dsn = "DATABASE_URL=postgresql://postgres:Asqw1234@db.bisegwtmrqzfsmqpuqpb.supabase.co:5432/postgres";
-$username = "864492c6-c0f7-499d-ab8e-815d1610cdc4";
-$password = "Felomeza13";
+$servername = "localhost:3306";
+$username = "u992749838_DWSkillgrade";
+$password = "DWSkillgrade24";
+$dbname = "u992749838_DWSkillgrade";
 
-try {
-    $conn = new PDO($dsn, $username, $password, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-    echo "Conexión exitosa";
-} catch (PDOException $e) {
-    echo "Conexión fallida: " . $e->getMessage();
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
 }
 ?>
