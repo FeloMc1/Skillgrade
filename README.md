@@ -126,8 +126,6 @@ SkillGrade 2.0 es una plataforma diseñada para ayudar a los usuarios a mejorar 
 2. **Configurar Base de Datos**:
    - Importar el archivo `skillgrade.sql` a MySQL.
    - Editar el archivo `db_config.php` con las credenciales de la base de datos.
--[!note]-
-Recuerda cambiar los parametros de la base de datos para tu conexion sql 
 
 3. **Configurar el Servidor Local**:
    - Asegurarse de que XAMPP (o equivalente) esté ejecutando Apache y MySQL.
