@@ -1,4 +1,4 @@
-# Documentación del Proyecto SkillGrade 2.0
+# Skillgrade
 
 ## Introducción
 SkillGrade 2.0 es una plataforma diseñada para ayudar a los usuarios a mejorar diferentes habilidades a través de ejercicios interactivos. Estas habilidades incluyen reflejos, tecleo, precisión, visualización y juegos mentales. Además, el sistema ofrece funcionalidades avanzadas como inicio de sesión, tablas de clasificaciones y configuración de dificultades. 🎯🎮✨
